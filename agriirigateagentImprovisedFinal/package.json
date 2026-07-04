@@ -1,0 +1,10 @@
+{
+  "name": "agriirigate-agent-improvised",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently -n backend,frontend -c blue,green \"cd backend && python -m uvicorn main:app --reload --host 127.0.0.1 --port 8000\" \"cd frontend && npm run dev -- --hostname 127.0.0.1 --port 3000\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}

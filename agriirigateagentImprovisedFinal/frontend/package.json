@@ -1,0 +1,30 @@
+{
+  "name": "agriirrigte-ai",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@fullcalendar/core": "^6.1.15",
+    "@fullcalendar/daygrid": "^6.1.15",
+    "@fullcalendar/interaction": "^6.1.15",
+    "@fullcalendar/react": "^6.1.15",
+    "@fullcalendar/timegrid": "^6.1.15",
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "axios": "^1.7.9",
+    "leaflet": "^1.9.4",
+    "lucide-react": "^0.441.0",
+    "next": "16.2.10",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-leaflet": "^4.2.1",
+    "recharts": "^2.13.3"
+  },
+  "devDependencies": {
+    "@types/node": "26.1.0",
+    "typescript": "6.0.3"
+  }
+}
